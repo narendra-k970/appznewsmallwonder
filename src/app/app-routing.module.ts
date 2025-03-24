@@ -13,12 +13,10 @@ import { BlogPageComponent } from './pages/blog-page/blog-page.component';
 import { BooksAndBeyondPageComponent } from './pages/books-and-beyond-page/books-and-beyond-page.component';
 import { CurriculumPageComponent } from './pages/curriculum-page/curriculum-page.component';
 import { EventsAndGalleryPageComponent } from './pages/events-and-gallery-page/events-and-gallery-page.component';
-import { FranchisePagesComponent } from './pages/franchise-pages/franchise-pages.component';
+import { FranchisePageComponent } from './pages/franchise-page/franchise-page.component';
 import { ContactFormComponent } from './pages/home-page/contact-form/contact-form.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { ParentsTestimonialComponent } from './pages/home-page/parents-testimonial/parents-testimonial.component';
-import { ContactFormsComponent } from './pages/contact-forms/contact-forms.component';
-
 import { ScheduleTourPageComponent } from './pages/schedule-tour-page/schedule-tour-page.component';
 import { ShoonyaPageComponent } from './pages/shoonya-page/shoonya-page.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
@@ -34,7 +32,7 @@ const routes: Routes = [
   },
   { path: "curriculum", component: CurriculumPageComponent },
   { path: "admissions", component: AdmissionsPageComponent },
-  { path: "franchise", component: FranchisePagesComponent },
+  { path: "franchise", component: FranchisePageComponent },
   {
     path: "activities",
     component: ActivitiesPageComponent
@@ -47,7 +45,7 @@ const routes: Routes = [
   { path: "blog", component: BlogPageComponent },
   { path: "schedule-tour", component: ScheduleTourPageComponent },
   { path: "shoonya", component: ShoonyaPageComponent },
-  { path: "contact-form", component: ContactFormsComponent },
+  { path: "contact-form", component: ContactFormComponent },
   { path: "parents-testimonial", component: ParentsTestimonialComponent },
   { path: "our-blog", component: BlogPageComponent },
   { path: "our-gallery", component: GalleryComponent },

@@ -1,5 +1,4 @@
 import { Component, OnInit, ViewChild, ElementRef } from "@angular/core";
-import { MailService } from '../../services/mail.service';
 
 @Component({
   selector: "app-about-us-page",
@@ -7,14 +6,14 @@ import { MailService } from '../../services/mail.service';
   styleUrls: ["./about-us-page.component.scss"],
 })
 export class AboutUsPageComponent implements OnInit {
-  @ViewChild('missionSection', { static: false }) missionSection!: ElementRef;
-  @ViewChild('visionSection', { static: false }) visionSection!: ElementRef;
+  @ViewChild('missionSection') missionSection: ElementRef;
+  @ViewChild('visionSection') visionSection: ElementRef;
 
   image = "/assets/img/aboutUs.jpg";
   title = "";
   text = "Welcome to our Wonderian Family, and to our website. This website has been created to give parents and carers a brief synopsis, 'flavour' of the offerings and facilities that are available to our students.";
 
-  constructor(private mailService: MailService) {}
+  constructor() {}
 
   ngOnInit() {}
 
@@ -24,15 +23,5 @@ export class AboutUsPageComponent implements OnInit {
 
   scrollToVision() {
     this.visionSection.nativeElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  }
-
-  sendEnquiry() {
-    const templateParams = {
-      from_name: 'Ruchir',
-      to_name: 'Enquiry team',
-      message: 'Check this out!',
-      reply_to: 'ruchirsachdeva@yahoo.com'
-    };
-    this.mailService.send(templateParams);
   }
 }
