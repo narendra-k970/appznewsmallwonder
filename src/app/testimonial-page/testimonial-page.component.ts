@@ -109,19 +109,19 @@ export class TestimonialPageComponent implements OnInit {
       imgSrc: "/assets/img/fff.png",
     },
     {
-      content: `Thank you, Mr. Arun Chopra, for creating a school where learning is fun, innovative, and meaningful.`,
+      content: `Small Wonders has created a learning environment where children are encouraged to dream big and achieve more. Thank you!`,
       name: "Mrs. Jaglan",
       designation: "mother of Aryan and Abhinay",
       imgSrc: "/assets/img/fff.png",
     },
     {
-      content: `Thank you, Mr. Arun Chopra, for creating a school where learning is fun, innovative, and meaningful.`,
+      content: `A special thanks to Mr. Arun Chopra for being such a dedicated and inspiring leader. Small Wonders reflects his passion for education.`,
       name: "Mr. Verma",
       designation: "father of Aman",
       imgSrc: "/assets/img/mmm.png",
     },
     {
-      content: `Thank you, Mr. Arun Chopra, for creating a school where learning is fun, innovative, and meaningful.`,
+      content: `It’s incredible how Small Wonders World School has evolved over the years while staying true to its mission of nurturing young minds`,
       name: " Mrs. Arora",
       designation: "mother of Aarna",
       imgSrc: "/assets/img/fff.png",
@@ -129,35 +129,35 @@ export class TestimonialPageComponent implements OnInit {
 
 
     {
-      content: `Thank you, Mr. Arun Chopra, for creating a school where learning is fun, innovative, and meaningful.`,
+      content: `Ms. Sanju Chopra, your passion for holistic education has created a wonderful environment for children to grow and excel.`,
       name: "Mr. Choudhary",
       designation: "father of Ananya",
       imgSrc: "/assets/img/mmm.png",
     },
 
     {
-      content: `Thank you, Mr. Arun Chopra, for creating a school where learning is fun, innovative, and meaningful.`,
+      content: `Small Wonders doesn’t just teach; it inspires. My daughter comes home every day excited about what she’s learned!`,
       name: "  Mrs. Gupta",
       designation: "mother of Khushi",
       imgSrc: "/assets/img/fff.png",
     },
 
     {
-      content: `Thank you, Mr. Arun Chopra, for creating a school where learning is fun, innovative, and meaningful.`,
+      content: `Small Wonders World School has been a blessing for my child. The personalized attention and caring teachers make it a perfect place for learning.`,
       name: " Mrs. Jain",
       designation: "mother of Aaryan",
       imgSrc: "/assets/img/fff.png",
     },
 
     {
-      content: `Thank you, Mr. Arun Chopra, for creating a school where learning is fun, innovative, and meaningful.`,
+      content: `My child has blossomed in this nurturing environment. The staff at Small Wonders go above and beyond for each child.`,
       name: " Mrs. Garg",
       designation: "mother of Sahil",
       imgSrc: "/assets/img/fff.png",
     },
 
     {
-      content: `Thank you, Mr. Arun Chopra, for creating a school where learning is fun, innovative, and meaningful.`,
+      content: `It’s been more than 20 years since Small Wonders began, and it continues to set the benchmark for education. We’re proud to be part of its legacy.`,
       name: " Mr. Goel",
       designation: "father of Riya",
       imgSrc: "/assets/img/mmm.png",

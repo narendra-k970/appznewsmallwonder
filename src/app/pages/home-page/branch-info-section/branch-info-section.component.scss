@@ -851,6 +851,7 @@
       letter-spacing: 1px;
       // padding-bottom: 1rem;
     }
+
     .lower {
       font-size: 14px !important;
       padding-top: 1rem;
@@ -884,6 +885,11 @@
   @media only screen and (max-width: 944px) {
     .tour {
       margin-top: 30px;
+
+        width: 147px;
+
+
+        margin-left: 106px; 
     }
   }
 
